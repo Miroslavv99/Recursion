@@ -41,6 +41,9 @@ let middle = Math.floor(arr.length / 2)
 let left = mergeSort(arr.slice(0, middle))
 let right = mergeSort(arr.slice(middle))
 
+left = mergeSort(left);
+right = mergeSort(right);
+
 let i = 0
 let j = 0
 let result = []
