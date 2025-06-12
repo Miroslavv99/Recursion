@@ -1,4 +1,4 @@
-// fibonacсi iteration
+// Fibonacсi iteration
 
 function fibonacci(n) {
     let a = 0;
@@ -13,7 +13,7 @@ function fibonacci(n) {
     return arr
 }
 
-// fibb recursion
+// Fibb recursion
 
 function fibbsRec(n) {
     if(n === 0) {
@@ -32,7 +32,7 @@ function fibbsRec(n) {
 
 
 
-// sort func
+// Merge sort
 
 function mergeSort(arr) {
 if(arr.length <= 1) return arr
